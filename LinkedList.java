@@ -17,7 +17,7 @@ public class LinkedList
         {	
         	while(node!=null)
             {
-            	System.out.print("node.data"+"->");
+            	System.out.print(node.data+"->");
                 node= node.next;
             }
             System.out.println("NULL");
